@@ -1,0 +1,26 @@
+[
+  {
+    "processing_purpose_id": "analytics-basic",
+    "name": "Analitica de uso",
+    "legal_basis": "consent",
+    "essential_flag": false,
+    "data_categories": ["telemetria_juego", "navegador"],
+    "retention_policy_ref": "P-AN-30"
+  },
+  {
+    "processing_purpose_id": "save-game-core",
+    "name": "Persistencia de partida",
+    "legal_basis": "contract",
+    "essential_flag": true,
+    "data_categories": ["estado_partida", "preferencias_controles"],
+    "retention_policy_ref": "P-SAVE-90"
+  },
+  {
+    "processing_purpose_id": "ux-improvement",
+    "name": "Mejora de experiencia",
+    "legal_basis": "consent",
+    "essential_flag": false,
+    "data_categories": ["eventos_ui", "rendimiento"],
+    "retention_policy_ref": "P-UX-30"
+  }
+]
